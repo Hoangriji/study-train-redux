@@ -117,10 +117,48 @@
   padding: 12px;
   color: #374151;
   font-size: 13px;
-  vertical-align: top;
+  vertical-align: middle;
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;
+}
+
+/* Avatar column */
+.person-table tbody td:first-child {
+  width: 70px;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Name column */
+.person-table tbody td:nth-child(2) {
+  padding-left: 50px;
+}
+/* Email column */
+.person-table tbody td:nth-child(3) {
+  padding-left: 28px;
+}
+
+/* Phone column */
+.person-table tbody td:nth-child(4) {
+  padding-left: 48px;
+}
+
+/* City column */
+.person-table tbody td:nth-child(5) {
+  padding-left: 24px;
+}
+
+/* Created At column */
+.person-table tbody td:nth-child(7) {
+  width: 150px;
+  padding-left: 20px;
+}
+
+/* Actions column */
+.person-table tbody td:nth-child(8) {
+  width: 250px;
+  padding-left: 20px;
 }
 
 /* Avatar */

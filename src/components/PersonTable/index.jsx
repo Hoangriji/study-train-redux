@@ -187,12 +187,12 @@ const PersonTable = () => {
                 <tr>
                   <th style={{ width: '70px' }}>Avatar</th>
                   <th style={{ width: '12%' }}>Name</th>
-                  <th style={{ width: '18%' }}>Email</th>
+                  <th style={{ width: '15%' }}>Email</th>
                   <th style={{ width: '12%' }}>Phone</th>
                   <th style={{ width: '12%' }}>City</th>
-                  <th style={{ width: '15%' }}>Job</th>
-                  <th style={{ width: '10%' }}>Created At</th>
-                  <th style={{ width: '180px' }}>Actions</th>
+                  <th style={{ width: '15%', paddingLeft: '24px' }}>Job</th>
+                  <th style={{ width: '12%' }}>Created At</th>
+                  <th style={{ width: '140px' }}>Actions</th>
                 </tr>
               </thead>
               <tbody style={{ height: `${totalHeight}px`, position: 'relative' }}>
