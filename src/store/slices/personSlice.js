@@ -33,14 +33,14 @@ const settings = loadSettings();
 
 // Initial state
 const initialState = {
-  persons: [], // Current page persons
+  persons: [], 
   loading: false,
   error: null,
   currentPage: 1,
   limit: settings.limit,
   sortBy: settings.sortBy,
   order: settings.order,
-  hasMore: true, // Whether there are more pages to load
+  hasMore: true,
 };
 
 // Async thunk: Fetch persons (for initial load or page change)
